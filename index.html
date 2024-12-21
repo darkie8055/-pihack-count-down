@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>#pihack Hackathon Countdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <h1>#PiHack Hackathon</h1>
+      <p>
+        The clock is ticking! Gear up to innovate, create, and leave a mark in the next 24 hours. 🚀
+      </p>
+    </div>
+
+    <div id="wrapper">
+      <div class="countdown-container">
+        <div id="hours" class="countdown-item">00</div>
+        <div class="countdown-separator">:</div>
+        <div id="minutes" class="countdown-item">00</div>
+        <div class="countdown-separator">:</div>
+        <div id="seconds" class="countdown-item">00</div>
+      </div>
+      <div class="countdown-labels">
+        <div class="countdown-label">Hours</div>
+        <div class="countdown-label">Minutes</div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+
+    <div>
+      <button id="startButton" class="action-button">Start</button>
+      <button id="pauseButton" class="action-button">Pause</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
