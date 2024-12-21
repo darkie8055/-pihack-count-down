@@ -12,7 +12,7 @@ This is a sleek countdown timer designed for the #pihack hackathon. It displays 
 ---
 
 ## Screenshot
-![Screenshot of Countdown Timer](path/to/your/image.png)
+![Screenshot of Countdown Timer](/preview.png)
 
 ---
 
